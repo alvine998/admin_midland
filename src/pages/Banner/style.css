@@ -1,0 +1,21 @@
+.bordering {
+    border-style: solid;
+}
+
+.bordering2 {
+    margin-top: 3%;
+    height: 200px;
+    width: 350px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.bordering3 {
+    margin-top: 3%;
+    height: 500px;
+    width: 800px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 5%;
+}
