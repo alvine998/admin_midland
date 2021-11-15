@@ -33,6 +33,26 @@ const Topnav = (props) => {
                 </NavDropdown.Item> */}
               </NavDropdown>
 
+              <NavDropdown title="Setting" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/setting/hubungi">Info Hubungi</NavDropdown.Item>
+                <NavDropdown.Item href="/setting/rekrutmen">
+                  Rekrutmen Karir
+                </NavDropdown.Item>
+                {/* <NavDropdown.Item href="/cluster/cilincing">
+                  Cilincing
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/cluster/papanggo">
+                  Papanggo
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/cluster/bahari">
+                  Bahari
+                </NavDropdown.Item> */}
+                {/* <NavDropdown.Divider />
+                <NavDropdown.Item href="/cluster/warakas">
+                  Tambah Cluster
+                </NavDropdown.Item> */}
+              </NavDropdown>
+
               <Nav.Link href="/login">Logout</Nav.Link>
 
             </Nav>

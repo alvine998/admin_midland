@@ -31,7 +31,7 @@ export default class Banner extends Component {
         <div className="bordering" />
         <Row>
           <Col sm={4}>
-            <div >
+            <div className="bordering2">
               <h4 style={{ paddingTop: 20 }}>Data Master Banner</h4>
               <h5
                 style={{
@@ -57,18 +57,12 @@ export default class Banner extends Component {
                     placeholder="Jane Doe"
                     aria-label="Full name"
                   />
-                  <button
-                    class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-                    type="button"
-                  >
+                  <Button>
                     Publish
-                  </button>
-                  <button
-                    class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
-                    type="button"
-                  >
+                  </Button>
+                  <Button variant="danger" style={{marginLeft:10}}>
                     Cancel
-                  </button>
+                  </Button>
                 </div>
 
                 <div class="flex items-center border-b border-teal-500 py-2">
@@ -78,18 +72,12 @@ export default class Banner extends Component {
                     placeholder="Jane Doe"
                     aria-label="Full name"
                   />
-                  <button
-                    class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-                    type="button"
-                  >
+                  <Button>
                     Publish
-                  </button>
-                  <button
-                    class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
-                    type="button"
-                  >
+                  </Button>
+                  <Button variant="danger" style={{marginLeft:10}}>
                     Cancel
-                  </button>
+                  </Button>
                 </div>
 
                 <div class="flex items-center border-b border-teal-500 py-2">
@@ -99,18 +87,12 @@ export default class Banner extends Component {
                     placeholder="Jane Doe"
                     aria-label="Full name"
                   />
-                  <button
-                    class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-                    type="button"
-                  >
+                  <Button>
                     Publish
-                  </button>
-                  <button
-                    class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
-                    type="button"
-                  >
+                  </Button>
+                  <Button variant="danger" style={{marginLeft:10}}>
                     Cancel
-                  </button>
+                  </Button>
                 </div>
 
                 <div class="flex items-center border-b border-teal-500 py-2">
@@ -120,18 +102,12 @@ export default class Banner extends Component {
                     placeholder="Jane Doe"
                     aria-label="Full name"
                   />
-                  <button
-                    class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-                    type="button"
-                  >
+                  <Button>
                     Publish
-                  </button>
-                  <button
-                    class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
-                    type="button"
-                  >
+                  </Button>
+                  <Button variant="danger" style={{marginLeft:10}}>
                     Cancel
-                  </button>
+                  </Button>
                 </div>
 
                 <div class="flex items-center border-b border-teal-500 py-2">
@@ -141,18 +117,12 @@ export default class Banner extends Component {
                     placeholder="Jane Doe"
                     aria-label="Full name"
                   />
-                  <button
-                    class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-                    type="button"
-                  >
+                  <Button>
                     Publish
-                  </button>
-                  <button
-                    class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded"
-                    type="button"
-                  >
+                  </Button>
+                  <Button variant="danger" style={{marginLeft:10}}>
                     Cancel
-                  </button>
+                  </Button>
                 </div>
               </form>
             </div>

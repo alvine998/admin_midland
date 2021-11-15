@@ -12,6 +12,8 @@ import Cilincing from './pages/Cluster/Cilincing';
 import Bahari from './pages/Cluster/Bahari';
 import Swasembada from './pages/Cluster/Swasembada';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Hubungi from './pages/Hubungi';
+import Rekrutmen from './pages/Rekrutmen';
 
 
 function App() {
@@ -29,7 +31,8 @@ function App() {
           <Route exact path="/cluster/cilincing" component={Cilincing}/>
           <Route exact path="/cluster/bahari" component={Bahari}/>
           <Route exact path="/cluster/swasembada" component={Swasembada}/>
-
+          <Route exact path="/setting/hubungi" component={Hubungi}/>
+          <Route exact path="/setting/rekrutmen" component={Rekrutmen}/>
         </Switch>
       </div>
     </Router>

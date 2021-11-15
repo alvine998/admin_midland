@@ -4,3 +4,13 @@
     height: 100%;
     width: 250px;
 }
+
+.upper {
+     padding-top: 50px;
+     padding-bottom: 20px;
+     padding-right: 80%;
+}
+
+.slimmer {
+    padding: 50px;
+}
