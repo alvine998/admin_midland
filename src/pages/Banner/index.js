@@ -7,6 +7,7 @@ import {
   Form,
   ListGroup,
   Nav,
+  Carousel,
   Navbar,
   NavDropdown,
   Row,
@@ -26,108 +27,88 @@ export default class Banner extends Component {
   render() {
     return (
       <div>
-        <Topnav />
-
-        <div className="bordering" />
-        <Row>
-          <Col sm={4}>
-            <div className="bordering2">
-              <h4 style={{ paddingTop: 20 }}>Data Master Banner</h4>
-              <h5
-                style={{
-                  textAlign: "justify",
-                  paddingLeft: 10,
-                  paddingRight: 10,
-                }}
-                class="text-sm text-gray-600 flex items-center"
-              >
-                Ini adalah fitur untuk mengubah atau menambah banner informasi
-                utama pada slider di halaman Home.
-              </h5>
+        <Topnav banner />
+        <div className="container">
+          <form className="form">
+            <div style={{ paddingTop: 20 }}>
+              <h5 style={{ float: "left" }}>Banner 1</h5>
+              <input className="form-control" type="file" />
             </div>
-          </Col>
-          <Col sm={6}>
-            <div className="bordering3">
-              <h4 style={{ paddingTop: 20 }}>Tambah Data Banner</h4>
-              <form class="">
-                <div class="flex items-center border-b border-teal-500 py-2">
-                  <input
-                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="file"
-                    placeholder="Jane Doe"
-                    aria-label="Full name"
-                  />
-                  <Button>
-                    Publish
-                  </Button>
-                  <Button variant="danger" style={{marginLeft:10}}>
-                    Cancel
-                  </Button>
-                </div>
 
-                <div class="flex items-center border-b border-teal-500 py-2">
-                  <input
-                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="file"
-                    placeholder="Jane Doe"
-                    aria-label="Full name"
-                  />
-                  <Button>
-                    Publish
-                  </Button>
-                  <Button variant="danger" style={{marginLeft:10}}>
-                    Cancel
-                  </Button>
-                </div>
-
-                <div class="flex items-center border-b border-teal-500 py-2">
-                  <input
-                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="file"
-                    placeholder="Jane Doe"
-                    aria-label="Full name"
-                  />
-                  <Button>
-                    Publish
-                  </Button>
-                  <Button variant="danger" style={{marginLeft:10}}>
-                    Cancel
-                  </Button>
-                </div>
-
-                <div class="flex items-center border-b border-teal-500 py-2">
-                  <input
-                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="file"
-                    placeholder="Jane Doe"
-                    aria-label="Full name"
-                  />
-                  <Button>
-                    Publish
-                  </Button>
-                  <Button variant="danger" style={{marginLeft:10}}>
-                    Cancel
-                  </Button>
-                </div>
-
-                <div class="flex items-center border-b border-teal-500 py-2">
-                  <input
-                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="file"
-                    placeholder="Jane Doe"
-                    aria-label="Full name"
-                  />
-                  <Button>
-                    Publish
-                  </Button>
-                  <Button variant="danger" style={{marginLeft:10}}>
-                    Cancel
-                  </Button>
-                </div>
-              </form>
+            <div style={{ paddingTop: 20 }}>
+              <h5 style={{ float: "left" }}>Banner 2</h5>
+              <input className="form-control" type="file" />
             </div>
-          </Col>
-        </Row>
+
+            <div style={{ paddingTop: 20 }}>
+              <h5 style={{ float: "left" }}>Banner 3</h5>
+              <input className="form-control" type="file" />
+            </div>
+
+            <div style={{ paddingTop: 20 }}>
+              <h5 style={{ float: "left" }}>Banner 4</h5>
+              <input className="form-control" type="file" />
+            </div>
+
+            <div style={{ paddingTop: 20 }}>
+              <h5 style={{ float: "left" }}>Banner 5</h5>
+              <input className="form-control" type="file" />
+            </div>
+
+            {/* Preview */}
+            <div style={{paddingTop:30}}>
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100 h-20"
+                    src="https://dummyimage.com/16:9x1080"
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100 h-20"
+                    src="https://dummyimage.com/16:9x1080"
+                    alt="Second slide"
+                  />
+
+                  <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100 h-20"
+                    src="https://dummyimage.com/16:9x1080"
+                    alt="Third slide"
+                  />
+
+                  <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p>
+                      Praesent commodo cursus magna, vel scelerisque nisl
+                      consectetur.
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
+            </div>
+
+            {/* Simpan Button */}
+            <div style={{paddingTop:30, paddingBottom:30}}>
+              <a className="btn btn-primary w-100" href="#">Simpan</a>
+            </div>
+          </form>
+        </div>
       </div>
     );
   }

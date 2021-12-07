@@ -25,7 +25,7 @@ export default class Dashboard extends Component {
   render() {
     return (
       <div>
-        <Topnav/>
+        <Topnav home/>
         <div className="texting">
           <h2>Welcome, Admin Midland Properti</h2>
         </div>

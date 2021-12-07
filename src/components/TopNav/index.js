@@ -10,9 +10,9 @@ const Topnav = (props) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/dashboard">Home</Nav.Link>
-              <Nav.Link href="/banner">Banner</Nav.Link>
-              <Nav.Link href="/highlight">Promo</Nav.Link>
+              <Nav.Link href="/dashboard" className={props.home ? "active" : ""}>Home</Nav.Link>
+              <Nav.Link href="/banner" className={props.banner ? "active" : ""}>Banner</Nav.Link>
+              <Nav.Link href="/highlight" className={props.promo ? "active" : ""}>Promo</Nav.Link>
               <NavDropdown title="Cluster" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/cluster/warakas">Warakas</NavDropdown.Item>
                 <NavDropdown.Item href="/cluster/swasembada">
