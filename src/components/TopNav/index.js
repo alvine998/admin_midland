@@ -27,10 +27,10 @@ const Topnav = (props) => {
                 <NavDropdown.Item href="/cluster/bahari">
                   Bahari
                 </NavDropdown.Item>
-                {/* <NavDropdown.Divider />
-                <NavDropdown.Item href="/cluster/warakas">
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="/tambah-cluster">
                   Tambah Cluster
-                </NavDropdown.Item> */}
+                </NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="Setting" id="basic-nav-dropdown">

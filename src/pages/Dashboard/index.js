@@ -25,14 +25,29 @@ export default class Dashboard extends Component {
   render() {
     return (
       <div>
-        <Topnav home/>
+        <Topnav home />
         <div className="texting">
           <h2>Welcome, Admin Midland Properti</h2>
         </div>
+
+        {/* <div className="container">
+          <div className="row">
+            <div className="col">
+              
+            </div>
+          </div>
+        </div> */}
+
+        <div className="position-block">
+          <div className="card-cluster">
+            <h6 className="text-cluster">Total Cluster : </h6>
+          </div>
+        </div>
+
         {/* <Row>
           <Col> */}
-            {/* Sidebar */}
-            {/* <div className="sidebar d-grid gap-2">
+        {/* Sidebar */}
+        {/* <div className="sidebar d-grid gap-2">
               <ButtonGroup vertical>
                 <Button variant="outline-secondary" active href="/dashboard">Home</Button>
                 <Button variant="outline-success" href="/banner">Banner</Button>
@@ -43,9 +58,9 @@ export default class Dashboard extends Component {
             </div>
           </Col>
           <Col> */}
-            {/* Main Content */}
-            
-          {/* </Col>
+        {/* Main Content */}
+
+        {/* </Col>
         </Row> */}
       </div>
     );
